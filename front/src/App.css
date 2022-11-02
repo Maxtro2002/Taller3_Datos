@@ -1,0 +1,64 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avionContenedor{
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+}
+
+.infoVenta{
+  min-width: 20vw;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.asientosContenedor{
+  border: 1px solid;
+}
+
+.ejecutivas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+  column-gap: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.economicas {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+}
+
+.asiento{
+  width: 50px;
+}
+
+.red__filter {
+  filter: invert(22%) sepia(87%) saturate(7204%) hue-rotate(342deg) brightness(89%) contrast(93%);
+}
+
+.red__filter:hover {
+  transition: all 0.3s;
+  width: 55px;
+}
+
+.green__filter{
+  filter: invert(33%) sepia(91%) saturate(1915%) hue-rotate(205deg) brightness(99%) contrast(96%);
+}
+
+.green__filter:hover{
+  transition: all 0.3s;
+  width: 55px;
+}
